@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ankur Academic & Admission care</title>
+  </head>
+  <body>
+    <!---------Header------->
+    <header>
+      <a href="#home" class="logo"><img src="./img/Sign trans.png" alt="" /></a>
+      <div class="toggle" onclick="toggleMenu()"></div>
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#course" onclick="toggleMenu()">Courses</a></li>
+        <li><a href="#routine" onclick="toggleMenu()">Routine</a></li>
+        <li><a href="#exam" onclick="toggleMenu()">Exam</a></li>
+        <li><a href="#footer" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-----------Hero-------->
+    <section class="home" id="home">
+      <div class="textBx">
+        <h2>
+          Welcome to <br />
+          Ankur Academic & Admission Care <br />
+          Web Portal
+        </h2>
+      </div>
+    </section>
+
+    <!-------Courses------->
+    <section class="courses" id="course">
+      <div class="content">
+        <div class="heading">
+          <h2>On-going Courses</h2>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <a href="#routine"
+              ><h4>Test Preparation Program <br />Class 10</h4></a
+            >
+          </div>
+
+          <div class="card">
+            <a href="#routine"
+              ><h4>Academic Program <br />Class 11</h4></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------Routine------>
+    <section class="routine" id="routine">
+      <div class="content">
+        <div class="heading">
+          <h2>Class Routines</h2>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <button class="accordion">Test Preparation Program</button>
+            <div class="panel">
+              <img src="./img/class10.jpeg" alt="" srcset="" />
+            </div>
+          </div>
+
+          <div class="card">
+            <button class="accordion">Academic Program</button>
+            <div class="panel">
+              <img src="./img/class11.webp" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------Exam------------>
+    <section class="exam" id="exam">
+      <div class="content">
+        <div class="heading">
+          <h2>Exam Schedule</h2>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <button class="accordion">Test Preparation Program</button>
+            <div class="panel">
+              <div class="form">
+                <h4>Next Exam : Daily Exam</h4>
+                <h5>Date : 10-10-2020</h5>
+                <h5>Time : 9:00 pm</h5>
+                <button class="exam-link">
+                  <a
+                    href="https://presenter.jivrus.com/p/1SysiriQdYVhls8rCrc1gA3QbkgEV0HGju5UMx4Dfwg4"
+                    target="_blank"
+                    >Start Exam</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <button class="accordion">Academic Program</button>
+            <div class="panel">
+              <div class="form">
+                <h4>Next Exam : Weekly Exam</h4>
+                <h5>Date : 15-10-2020</h5>
+                <h5>Time : 9:00 pm</h5>
+                <button class="exam-link">
+                  <a
+                    href="https://presenter.jivrus.com/p/1SysiriQdYVhls8rCrc1gA3QbkgEV0HGju5UMx4Dfwg4"
+                    target="_blank"
+                    >Start Exam</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------Footer----------->
+    <footer id="footer">
+      <div class="content">
+        <div class="heading">
+          <h2>Ankur Academic & Admission Care</h2>
+        </div>
+
+        <div class="description">
+          <div class="item">
+            <i class="fa fa-map-marker"></i>
+            <p>Kalibari Road , Habiganj-3300</p>
+          </div>
+
+          <div class="item">
+            <i class="fa fa-phone"></i>
+            <p>
+              +88-01761-134934 <br />+88-01682-212801 <br />
+              +88-01719-980374
+            </p>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <h3>Made by ajstar212</h3>
+        </div>
+      </div>
+    </footer>
+
+    <!----------Javascript---------->
+    <script src="./main.js"></script>
+  </body>
+</html>
